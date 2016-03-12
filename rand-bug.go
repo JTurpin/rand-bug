@@ -14,6 +14,13 @@ var (
 	players [4]string
 )
 
+type Game struct {
+	s1b string
+	s1w string
+	s2b string
+	s2w string
+}
+
 func main() {
 
 	fmt.Println("running on: http://localhost:9090 for testing")
