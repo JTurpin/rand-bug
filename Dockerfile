@@ -5,4 +5,6 @@ RUN go get github.com/jturpin/rand-bug
 
 WORKDIR /go/src/github.com/jturpin/rand-bug
 
+EXPOSE 9090
+
 CMD ["go", "run", "rand-bug.go"]
